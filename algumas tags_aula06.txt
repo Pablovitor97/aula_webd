@@ -1,0 +1,74 @@
+titulo <h1> ate o <h6>: maneira de hierarquisar uma informação, nao serve para
+deixar maior ou menor, isso a gente faz no CSS, pois seria algo mais vizual.
+
+
+HTML SERVE PARA DAR SIGNIFICADO E INFORMAÇÃO.
+
+
+<i> itálico </i>
+
+<b> negrito </b>
+
+<em> italico semantica </em>
+
+<strong> negrito semantio </strong>
+
+LISTAS NAO ORDENADAS:
+
+<ul>
+
+<li>...</li> item de lista
+<li>...</li>
+<li>...</li>
+
+</ul>
+..........
+
+LISTAS ORDENADAS:
+
+<ol> 
+
+<li>...</li> item de lista
+<li>...</li>
+<li>...</li>
+
+</ol>
+......
+
+LINKS:
+
+usamos a tag <a></a>
+
+ex: <p> saiba mais sobre <a> HTML </a> E SEJA MAIS FELIZ </p>
+
+
+ATRIBUTOS:
+
+<tag atributo="valor" texto aqui </tag>
+
+<p> saiba mais sobre <a href="https://jhjhlvbjlvbjvb"> HTML<a/> 
+</p>
+
+TARGET= ELE INDICA QUANDO EU QUERO ABRIR MINHA PAGINA NA OUTRA ABA.
+
+EX:
+<p> fgdgfg <a href="um link"> html5</a> visitando khvd
+</p>
+
+TIPOS DE LINKS:
+
+<a href="https://hhddid"> link esterno; qusndo esta fora do meu site
+
+<a href="outraPagina.html"> link do meu site;pasta
+
+<a href="#secao"> ond eeu quwro navegar na minha pagina
+
+<a href="mailto:alguem@server.com"> link de email; mal usamos, precismaos de um software instalado no programa, ex: outlook...
+
+
+QUEBRA DE LINHA:
+
+<BR> QUEBRA A LINHA NORMAL
+
+<HR> QUEBRA LINHA, MAS MOSTRA UMA REGUA ORIZONTAL
+

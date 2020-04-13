@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--doctype informa ao agente de usuario a versao do html q deve 
+ser renderizada-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!--<meta charset=" utf - 8 "> // indico que esta usando uma codificação mais usada; -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--o name="viewpor" é o altor content="nome do autor?"-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="lista de algo"> <!--descrição do que tem, ela aparece quando buscam algo no google-->
+    <meta name="keywords" content="html5, algo"> <!--ela informa as palavras chaves com relaçao a esta pagina-->
+    
+<!--css interno-->
+    <style>
+        body{
+            background-color: darkgrey; /*cor de fundo*/
+        }
+        
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 48px; /*aumenta ou n o tamanho da fonte*/
+            font-style: italic; /*estilo de escrita*/
+            font-variant: normal; /*modo das letras*/
+            color: brown; /*mudar a cor da fonte-- pode-se usar codigos exadecimal*/
+            margin-left: 50px; /*ESPAÇAMENTO EXTERNO*/
+            margin-right: 50px;
+            margin-top: 50px;
+            padding-top: 50PX; /*ELE DA UM ESPAÇAMENTO INTERNO; PERCEBECE QUE A LETRA FICOU MAIS EM BAIXO*/
+            background-color: lightcoral;
+            width: 180px; /*largura*/
+            height: 280px; /*altura--- soma com o tamanho do padding*/
+
+        }
+
+        h2{
+            text-transform: uppercase; /*maiuscula*/
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            border-bottom-color: lightsalmon; /*a borda*/
+            border-bottom-style:dashed; /*tipos de borda*/
+            border-bottom-width: 5px; /*width é  ESPESURA*/
+            padding: 25px;
+            color:cornflowerblue;
+            
+
+        }
+        p{
+            font-variant: small-caps; /** essa letra fica linda*/
+            text-align: center;
+            text-indent: 20px; /*indentação do paragrafo*/
+            /*text-decoration:; deixa sublinhado
+            text-transform: uppercase;*/
+        }
+
+        #destaque{
+            color: brown; /*mudei a cor de um paragrafo so, usando o id--- a # é para os ID */
+        }
+
+        .destaque{ /*isso é uma classe, e eu posso usar mais de duas classes com o mesmo nome*/
+            color: dodgerblue;
+            background-color: lightcoral;
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>Pagina, exemplos de estruturas basicas</h1>
+    <h2>so colocando algo desnecessario</h2>
+
+    <p class="destaque"> Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. 
+        Nam vulputate dapibus. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. 
+        Praesent vel viverra nisi. 
+        Mauris aliquet nunc non turpis scelerisque, eget.
+        Não sou faixa preta cumpadi, sou preto inteiris, inteiris.</p>
+
+    <p id="destaque"> Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. 
+        Nam vulputate dapibus. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. 
+        Praesent vel viverra nisi. 
+        Mauris aliquet nunc non turpis scelerisque, eget.
+        Não sou faixa preta cumpadi, sou preto inteiris, inteiris.</p>
+
+    <p class="destaque"> Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. 
+        Nam vulputate dapibus. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. 
+        Praesent vel viverra nisi. 
+        Mauris aliquet nunc non turpis scelerisque, eget.
+        Não sou faixa preta cumpadi, sou preto inteiris, inteiris.</p>
+
+</body>
+</html>

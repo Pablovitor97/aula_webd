@@ -1,0 +1,10 @@
+AULA 09
+
+<!-DOCTYPE HTML> É UMA MANEIRA DE INFORMAR QUE TIPO DE DOCUMENTO EU
+ESTOU ESCREVENDO.
+
+"<!" SINAL DE DECLARAÇÃO (MENOR EXCLAMAÇÃO)
+
+META TAG: charset
+
+<meta charset=" utf - 8 "> // indico que esta usando uma codificação mais usada; 

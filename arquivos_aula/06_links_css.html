@@ -1,0 +1,69 @@
+
+
+<!DOCTYPE html>
+<!--doctype informa ao agente de usuario a versao do html q deve 
+ser renderizada-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!--<meta charset=" utf - 8 "> // indico que esta usando uma codificação mais usada; -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--o name="viewpor" é o altor content="nome do autor?"-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="lista de algo"> <!--descrição do que tem, ela aparece quando buscam algo no google-->
+    <meta name="keywords" content="html5, algo"> <!--ela informa as palavras chaves com relaçao a esta pagina-->
+    <title>Pagina, exemplos de estruturas basicas</title>
+
+    <style>
+        /*posso pegar os elementos e aplicar essa função a eles
+        caso queira colocar a fonte de todas as letras, o mesmo.. coloque Body {font-family...}*/
+        p, li, a{
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        }
+
+        a:link{
+            color: purple;
+        }
+        a:hover{ /*para mudar a cor quando eu passar o mouse*/
+            background-color: #ccc;
+        }
+
+        a:visited{ /*quando o usuario ja visitou*/
+            color:tomato;
+        }
+        a:active{
+            color:yellow;
+        }
+
+        ul li{ /*formata toda li q esta dentro de ul*/
+            list-style-type:circle ;
+        }
+
+        ol li{ /*formata toda li q esta dentro de ul*/
+            list-style-type: upper-roman ;
+            list-style-position: inside; /*posição--dentro da lista*/
+        }
+    </style>
+
+</head>
+<body>
+    <p><a href="01_teste.html">veja este arquivo</a> algo</p>
+    <a href="02_tags.html"> veja o segundo arquivo</a>
+
+    <ul>
+
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+
+    </ul>
+
+    <ol>
+
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+
+    </ol>
+
+    <P>tenho que escrever algo aqui</P>
+</body>
+</html>

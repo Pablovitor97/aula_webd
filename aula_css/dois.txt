@@ -1,0 +1,48 @@
+FONTS CSS:
+
+font-family ( se eu quiser formatar a familia da font)
+
+font-sinze (qundo quiser trabalhar o tamnho maior e menor da font)
+
+font-style (estilo, se é italico, normal;)
+
+font-variant (mudar a forma de escrita, )
+
+font-etico (em negrito; )
+
+
+TEXT CSS:
+
+tex-aling ( direita ou essquerda)
+
+tex-decoration (sublinhado; )
+
+tex-ident (indentar)
+
+tex-transform ( se quero tudo maiusculo ou não)
+
+
+#RGB -- codigo HEXADECIMAL; PODE TER LETRAS E NUMEROS; O F SIGNI O MAXIMO DAQUELA COR;😙️
+
+#FFFFFF BRANCO
+
+#00FF00 VERDE
+
+#0000FF BLUE LIGHT
+
+#FFFF00 AMARELO
+
+#FF00FF MAGENTA
+
+#00FFFF CYAN
+
+#FF0000 VERMELHO
+
+COLOR = COR DA FONTE;
+
+BACKGROUND-COLOR = MUDA A COR DE FUNDO;
+
+
+
+
+
